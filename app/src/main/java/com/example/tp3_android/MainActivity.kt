@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() , ActionMode.Callback{
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater: MenuInflater = menuInflater
         inflater.inflate(R.menu.menu, menu)
-        inflater.inflate(R.menu.context_mode_menu, menu)
         return true
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
